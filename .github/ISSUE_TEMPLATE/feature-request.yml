@@ -1,0 +1,35 @@
+name: Suggest an improvement
+description: Share an idea that would make Progress Evolved more useful
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea.
+
+        **This suggestion is public.** Do not include progress photos, health or body data, backup files, passwords, recovery keys, or other private information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation or difficulty rather than only naming a feature.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would a useful outcome look like?
+    validations:
+      required: true
+  - type: textarea
+    id: current-workaround
+    attributes:
+      label: What do you do today?
+      description: Optional. Tell us about any workaround you currently use.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included personal, health, body, photo, backup, password, or recovery-key information.
+          required: true
