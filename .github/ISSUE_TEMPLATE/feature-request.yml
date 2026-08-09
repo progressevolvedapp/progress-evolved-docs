@@ -11,25 +11,16 @@ body:
   - type: textarea
     id: problem
     attributes:
-      label: What problem would this solve?
-      description: Describe the situation or difficulty rather than only naming a feature.
-    validations:
-      required: true
-  - type: textarea
-    id: outcome
-    attributes:
-      label: What would a useful outcome look like?
+      label: What would make Progress Evolved more useful?
+      description: Tell us your idea in your own words. Do not include private app data.
     validations:
       required: true
   - type: textarea
     id: current-workaround
     attributes:
-      label: What do you do today?
-      description: Optional. Tell us about any workaround you currently use.
-  - type: checkboxes
-    id: privacy
+      label: What do you do today? (Optional)
+      description: Tell us about any workaround you currently use.
+  - type: textarea
+    id: extra
     attributes:
-      label: Privacy check
-      options:
-        - label: I have not included personal, health, body, photo, backup, password, or recovery-key information.
-          required: true
+      label: Anything else? (Optional)
