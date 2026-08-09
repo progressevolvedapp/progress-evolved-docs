@@ -8,53 +8,39 @@ body:
         Thanks for helping improve Progress Evolved.
 
         **This report is public.** Do not include progress photos, health or body data, backup files, passwords, recovery keys, or other private information. Email progressevolvedapp@gmail.com instead if your report is sensitive.
-  - type: input
-    id: app-version
-    attributes:
-      label: Progress Evolved version
-      description: Find this under Settings → About & legal.
-      placeholder: "For example: 0.1.0"
-    validations:
-      required: true
-  - type: input
-    id: android-version
-    attributes:
-      label: Android version and device
-      placeholder: "For example: Android 15, Samsung Galaxy S24"
-    validations:
-      required: true
   - type: textarea
     id: problem
     attributes:
       label: What happened?
-      description: Explain the problem without including private app data.
+      description: Tell us what went wrong in your own words. Do not include private app data.
     validations:
       required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: Progress Evolved version (Optional)
+      description: Find this under Settings → About & legal. Leave blank if you are not sure.
+      placeholder: "For example: 0.1.0"
+  - type: input
+    id: android-version
+    attributes:
+      label: Android version and device (Optional)
+      description: Leave blank if you are not sure.
+      placeholder: "For example: Android 15, Samsung Galaxy S24"
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
+      label: What were you doing before it happened? (Optional)
       placeholder: |
         1. Open…
         2. Tap…
         3. See…
-    validations:
-      required: true
   - type: textarea
     id: expected
     attributes:
-      label: What did you expect?
-    validations:
-      required: true
+      label: What did you expect? (Optional)
   - type: textarea
     id: extra
     attributes:
-      label: Anything else?
-      description: Optional. Only attach a screenshot after checking that it contains no personal information.
-  - type: checkboxes
-    id: privacy
-    attributes:
-      label: Privacy check
-      options:
-        - label: I have removed personal, health, body, photo, backup, password, and recovery-key information.
-          required: true
+      label: Anything else? (Optional)
+      description: Only attach a screenshot after checking that it contains no personal information.
