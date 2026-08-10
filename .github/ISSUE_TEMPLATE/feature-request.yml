@@ -5,6 +5,38 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Progress Evolved · Improvement idea
+
+        *Private progress, thoughtfully tracked.*
+
+        Thanks for sharing an idea.
+
+        **This suggestion is public.** Do not include progress photos, health or body data, backup files, passwords, recovery keys, or other private information.
+
+        Prefer not to use GitHub? [Use our account-free feedback form](https://tally.so/r/GxV8aQ).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What would make Progress Evolved more useful?
+      description: Tell us your idea in your own words. Do not include private app data.
+    validations:
+      required: true
+  - type: textarea
+    id: current-workaround
+    attributes:
+      label: What do you do today? (Optional)
+      description: Tell us about any workaround you currently use.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else? (Optional)
+name: Suggest an improvement
+description: Share an idea that would make Progress Evolved more useful
+title: "[Feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
         Thanks for sharing an idea.
 
         **This suggestion is public.** Do not include progress photos, health or body data, backup files, passwords, recovery keys, or other private information.
