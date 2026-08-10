@@ -5,9 +5,15 @@ body:
   - type: markdown
     attributes:
       value: |
+        ## Progress Evolved · Problem report
+
+        *Private progress, thoughtfully tracked.*
+
         Thanks for helping improve Progress Evolved.
 
         **This report is public.** Do not include progress photos, health or body data, backup files, passwords, recovery keys, or other private information. Email progressevolvedapp@gmail.com instead if your report is sensitive.
+
+        Prefer not to use GitHub? [Use our account-free feedback form](https://tally.so/r/GxV8aQ).
   - type: textarea
     id: problem
     attributes:
