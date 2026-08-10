@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 80 80" role="img" aria-labelledby="title">
+  <title id="title">Progress Evolved</title>
+  <defs><linearGradient id="coral" x1="12" y1="68" x2="68" y2="12" gradientUnits="userSpaceOnUse"><stop stop-color="#f27752"/><stop offset="1" stop-color="#ff6b4a"/></linearGradient></defs>
+  <path d="M14 68V50h8a14 14 0 0 1 14 14v4" fill="none" stroke="url(#coral)" stroke-width="8"/>
+  <path d="M22 49V30h13a25 25 0 0 1 25 25v13" fill="none" stroke="url(#coral)" stroke-width="8"/>
+  <path d="M30 29V12h16a22 22 0 0 1 22 22v34" fill="none" stroke="url(#coral)" stroke-width="8"/>
+</svg>
