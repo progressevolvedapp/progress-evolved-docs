@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.1 seconds
+Output:
 <!doctype html>
 <html lang="en">
   <head>
@@ -61,6 +64,22 @@
         gap: 14px;
         margin: 24px 0;
       }
+      .primary-action {
+        margin: 24px 0;
+      }
+      details {
+        margin: 24px 0;
+      }
+      summary {
+        cursor: pointer;
+        color: var(--accent);
+        font-weight: 700;
+      }
+      .advanced-actions {
+        display: grid;
+        gap: 14px;
+        margin-top: 14px;
+      }
       .card {
         padding: 18px;
         border: 1px solid #ddd2c4;
@@ -88,11 +107,8 @@
         margin-top: 24px;
       }
       @media (min-width: 620px) {
-        .actions {
+        .advanced-actions {
           grid-template-columns: 1fr 1fr;
-        }
-        .card:last-child {
-          grid-column: 1 / -1;
         }
       }
     </style>
@@ -101,35 +117,48 @@
     <main>
       <h1>Help &amp; feedback</h1>
       <p class="intro">
-        Report a problem, suggest an improvement, or contact Progress Evolved privately.
-        A free GitHub account is required to submit a public report.
+        Tell us what happened or what would help. No account is needed, and a few words are enough.
       </p>
 
       <aside class="warning" aria-label="Privacy warning">
         <strong>Keep personal information private.</strong>
-        Do not attach progress photos, health or body data, backup files, passwords,
-        recovery keys, or anything else you would not want visible publicly.
+        Please do not upload personal photos, health or body data, backup files, passwords,
+        recovery keys, or anything else you would not want to share. Feedback is reviewed privately.
       </aside>
 
+      <section class="card primary-action">
+        <h2>Send feedback</h2>
+        <p>
+          Report a problem or suggest an idea in one simple form. Screenshots and other files are optional.
+        </p>
+        <a class="button" href="https://tally.so/r/GxV8aQ">Send feedback</a>
+      </section>
+
+      <details>
+        <summary>Advanced: use GitHub issue forms</summary>
+        <p class="intro">A free GitHub account is required. These forms are useful for detailed technical reports.</p>
+        <div class="advanced-actions">
+          <section class="card">
+            <h2>Report a problem</h2>
+            <p>Tell us what happened, what you expected, and how to reproduce it.</p>
+            <a
+              class="button"
+              href="https://github.com/progressevolvedapp/progress-evolved-docs/issues/new?template=bug-report.yml"
+            >Report a problem</a>
+          </section>
+
+          <section class="card">
+            <h2>Suggest an improvement</h2>
+            <p>Describe the problem you want solved and what a useful outcome would look like.</p>
+            <a
+              class="button"
+              href="https://github.com/progressevolvedapp/progress-evolved-docs/issues/new?template=feature-request.yml"
+            >Suggest an improvement</a>
+          </section>
+        </div>
+      </details>
+
       <div class="actions">
-        <section class="card">
-          <h2>Report a problem</h2>
-          <p>Tell us what happened, what you expected, and how to reproduce it.</p>
-          <a
-            class="button"
-            href="https://github.com/progressevolvedapp/progress-evolved-docs/issues/new?template=bug-report.yml"
-          >Report a problem</a>
-        </section>
-
-        <section class="card">
-          <h2>Suggest an improvement</h2>
-          <p>Describe the problem you want solved and what a useful outcome would look like.</p>
-          <a
-            class="button"
-            href="https://github.com/progressevolvedapp/progress-evolved-docs/issues/new?template=feature-request.yml"
-          >Suggest an improvement</a>
-        </section>
-
         <section class="card">
           <h2>Contact us privately</h2>
           <p>
@@ -140,10 +169,11 @@
       </div>
 
       <p>
-        Include the Progress Evolved app version and Android version when they are relevant.
-        You can find the app version under Settings → About &amp; legal.
+        App and Android versions are helpful but optional when they are relevant.
+        You can find the app version under Settings â†’ About &amp; legal.
       </p>
       <a class="back" href="./index.html">Back to Progress Evolved Docs</a>
     </main>
   </body>
 </html>
+
