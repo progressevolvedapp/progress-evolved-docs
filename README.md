@@ -1,5 +1,7 @@
 # Progress Evolved Docs
 
+**Your Progress, Made Visible.**
+
 Public support and policy documents for Progress Evolved.
 
 This repository intentionally contains only public-facing support, legal, and
