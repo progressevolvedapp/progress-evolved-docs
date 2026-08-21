@@ -10,7 +10,8 @@
       * { box-sizing: border-box; }
       body { min-height: 100vh; margin: 0; display: grid; place-items: center; padding: 24px; color: #f6f1ea; background: #111315; }
       main { width: min(100%, 32rem); padding: 28px; border: 1px solid #3b3d40; border-radius: 20px; background: #1a1c1f; box-shadow: 0 20px 55px rgb(0 0 0 / 0.35); }
-      img { width: 56px; height: 56px; }
+      .brand { display: flex; align-items: center; gap: 14px; }
+      .brand img { width: 64px; height: 64px; padding: 6px; object-fit: contain; flex: 0 0 auto; }
       p { color: #bbb6af; line-height: 1.55; }
       h1 { margin: 22px 0 8px; font-size: clamp(2rem, 8vw, 3rem); line-height: 1; }
       .eyebrow { margin: 0; color: #ef8c70; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; text-transform: uppercase; }
@@ -22,8 +23,10 @@
   </head>
   <body>
     <main>
-      <img src="./assets/progress-evolved-mark.svg" alt="Progress Evolved" />
-      <p class="eyebrow">Android early access</p>
+      <div class="brand">
+        <img src="./assets/progress-evolved-mark.svg" alt="Progress Evolved" />
+        <p class="eyebrow">Progress Evolved - Android Early Access</p>
+      </div>
       <h1>See progress more clearly.</h1>
       <p>You’ve been invited to test Progress Evolved, a private progress tracker for photos and measurements.</p>
       <a class="button" href="https://play.google.com/apps/testing/app.progressevolved">Join the Android test</a>
