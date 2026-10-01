@@ -10,7 +10,8 @@ internal release artifacts do not belong here.
 
 - Support: https://progressevolvedapp.github.io/progress-evolved-docs/support.html
 - Privacy policy: https://progressevolvedapp.github.io/progress-evolved-docs/privacypolicy.html
-- Android early access: https://progressevolvedapp.github.io/progress-evolved-docs/join.html
+- Android closed testing (Alpha): https://progressevolvedapp.github.io/progress-evolved-docs/join.html
+- Invited tester opt-in: https://play.google.com/apps/testing/app.progressevolved
 - Tester invite requests: https://tally.so/r/EkoGqL
 
 Public GitHub Issues are an intake channel for app users. Do not post progress
